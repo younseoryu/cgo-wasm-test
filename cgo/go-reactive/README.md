@@ -1,3 +1,6 @@
+##
+Blog Post: https://dev.to/oayomide/create-a-webassembly-app-with-react-and-go-39j7
+
 ### What, why?
 Have you ever wanted to build something with WebAssembly and Go, as a React dev but scratch your head in confusion on how to start? Well, I had the same problem. This was why I decided to write this.
 
