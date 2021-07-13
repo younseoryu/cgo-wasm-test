@@ -28,9 +28,14 @@ class App extends Component {
     })
   }
 
-  handleSubmit = async (e) => {
+  handleSubmitSayHello = async (e) => {
     e.preventDefault()
     window.sayHelloJS(this.state.message)
+  }
+
+  handleSubmitTest1 = async (e) => {
+    e.preventDefault()
+    window.test1JS(this.state.message)
   }
 
 
@@ -40,9 +45,13 @@ class App extends Component {
         <form>
           <input type="text" name="" id="userInput" onChange={(e) => this.handleChange(e)} style={{ marginTop: '100px' }} />
           <br />
-          <button type="submit" onClick={(e) => this.handleSubmit(e)}>Display str value via wasm</button>
+          <button type="submit" onClick={(e) => this.handleSubmitSayHello(e)}>call sayHello() in go</button>
+          <br />
+          <button type="submit" onClick={(e) => this.handleSubmitTest1(e)}>call test1() in go</button>
         </form>
-      </div>
+        <span id="message">
+        </span>  
+      </div>    
     )
   }
 }
