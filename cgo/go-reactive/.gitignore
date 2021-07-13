@@ -1,0 +1,3 @@
+*.wasm
+server.go
+node_modules
