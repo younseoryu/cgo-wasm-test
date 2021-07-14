@@ -4,12 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-// window.sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-
-// if (window.SayHello === undefined) {
-//     window.SayHello = (val) => {}
-// }
-
 ReactDOM.render(
   <React.StrictMode>
     <App />

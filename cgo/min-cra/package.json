@@ -1,5 +1,5 @@
 {
-  "name": "min-cra",
+  "name": "min-cra2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,8 +34,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "golang-wasm-async-loader": "^0.4.1"
   }
 }
